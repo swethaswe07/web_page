@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Café</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #4b3d3d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card h3 {
+            margin: 10px;
+        }
+        .card p {
+            margin: 0 10px 10px;
+            color: #777;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #4b3d3d;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>La Café</h1>
+    <p>Your cozy corner for coffee and pastries</p>
+</header>
+
+<div class="container">
+    <div class="card">
+        <img src="https://i.pinimg.com/564x/92/e1/45/92e145287ada0f722fbaef0beb6f7db9.jpg" alt="Espresso">
+        <h3>Espresso</h3>
+        <p>Rich and bold, perfect for a quick pick-me-up.</p>
+    </div>
+    <div class="card">
+        <img src="https://i.pinimg.com/564x/f4/ba/82/f4ba825ee241e59580f46eb26c145345.jpg" alt="lattee">
+        <h3>Latte</h3>
+        <p>Creamy and smooth, a warm hug in a cup.</p>
+    </div>
+    <div class="card">
+        <img src="https://i.pinimg.com/564x/60/16/24/601624588afbe86aa187efb9880629a6.jpg" alt="Cappuccino">
+        <h3>Cappuccino</h3>
+        <p>Perfectly balanced espresso, steamed milk, and foam.</p>
+    </div>
+    <div class="card">
+        <img src="https://i.pinimg.com/564x/63/07/19/630719f5992dbc387fca2da40b02624c.jpg" alt="Croissant">
+        <h3>Croissant</h3>
+        <p>Buttery and flaky, the perfect pairing for your coffee.</p>
+    </div>
+    <div class="card">
+        <img src="https://i.pinimg.com/736x/47/6a/3d/476a3d56542b267505a997a531739fb3.jpg" alt="Muffin">
+        <h3>Blueberry Muffin</h3>
+        <p>Soft, moist, and bursting with blueberries.</p>
+    </div>
+    <div class="card">
+        <img src="https://i.pinimg.com/564x/1d/c9/64/1dc96420e9b04ea9a5e3f4328fa10cdc.jpg" alt="Cake">
+        <h3>Chocolate Cake</h3>
+        <p>Decadent and rich, a true chocolate lover's delight.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 La Café</p>
+</footer>
+
+</body>
+</html>
